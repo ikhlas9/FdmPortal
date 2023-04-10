@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #293241;
+}
+
+.navbar {
+    background-color: #070225;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #e0fbfc;
+    padding: 20px;
+    font-size: 25px;
+}
+.navbar a.active {
+    color: #ee6c4d;
+    border-bottom: 2px solid #ee6c4d;
+  }
+  
+  
+
+.logo img {
+    height: 80px;
+    width: 130px;
+}
+
+.login a {
+    color: #98c1d9;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    font-family: "Gill Sans, sans-serif";
+}
+
+.login a:hover {
+    background-color: #070225;;
+}
+
+
+
+.info-row {
+    background-color: #5c6676;
+    border: 1px solid #303948;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.login-error {
+    color: #ee6c4d;
+    margin-right: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e0fbfc;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #e0fbfc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    background-color: rgb(50, 174, 236);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #c7513f;
+}
+
+
+
+#payslip-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 ;
+    max-width: 100%;
+    background-color: #070225;;
+    border: 1px solid #293241;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+    
+
+}
+
+#payslip-button:hover {
+    background-color: #c7513f;
+}
+
+#request-button {
+ display: flex;
+flex-direction: column;
+align-items: center;
+flex: 1 ;
+max-width: 100%;
+background-color: #070225;;
+border: 1px solid #293241;
+border-radius: 10px;
+padding: 15px;
+margin-bottom: 20px;
+font-size: 25px;
+color: white;
+
+}
+#request-button:hover {
+    background-color: #c7513f;
+}
+#time-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 ;
+    max-width: 100%;
+    background-color: #070225;;
+    border: 1px solid #293241;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+
+}
+
+#time-button:hover {
+    background-color: #c7513f;
+}
+
+#request-view-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 ;
+    max-width: 100%;
+    background-color: #070225;;
+    border: 1px solid #293241;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+
+}
+
+#request-view-button:hover {
+    background-color: #c7513f;
+}
+#time-view-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 ;
+    max-width: 100%;
+    background-color: #070225;;
+    border: 1px solid #293241;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+
+}
+
+#time-view-button:hover {
+    background-color: #c7513f;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%; 
+    margin-top: 100px;
+  }
+  
+  .centered-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    align-items: start;
+    background-color: #323b49;
+    border: 1px solid #303948;
+    justify-items: left;
+    width: 100%;
+  }
+  
+
+
+
+
+
+
+.footer {
+    background-color: #1e2125;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #e0fbfc;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.footer a:hover {
+    background-color: #3d5a80;
+    color: #e0fbfc;
+    border-radius: 5px;
+}

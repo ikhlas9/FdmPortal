@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #293241;
+  }
+  
+ 
+
+  
+ 
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    padding-top: 6px;
+    color: #e0fbfc;
+    font-size:  25px;
+    display: block;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #495057;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input[readonly] {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+  }
+  
+  button[type="submit"] {
+    display: inline-block;
+    background-color:#50a3b8;
+    color: #ffffff;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color:  #c7513f;
+  }
+  .info {
+    width: 50%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 40px;
+    background-color: #070225;
+    border: 1px solid #293241;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.info-title{
+    margin-bottom: 50px;
+    color: #e0fbfc;
+    font-size: 25px;
+}
+
+.info label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #e0fbfc;
+}
+
+.info input[type="text"],
+.info input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.info input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #50a3b8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.info input[type="submit"]:hover {
+    background-color: #c7513f;
+}
+
+  /* Footer */
+  .footer {
+    background-color: #1e2125;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #e0fbfc;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    background-color: #3d5a80;
+    color: #e0fbfc;
+    border-radius: 5px;
+  }
+  
