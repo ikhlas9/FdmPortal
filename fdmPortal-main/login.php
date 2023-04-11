@@ -67,30 +67,26 @@
     
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
-<body>
+
     
 
+<body>
+    <div class="info">
+        <div class="info-title"><span>Please login to access the FDM Employee Portal:</span></div>
+        <form action="login.php" method="post">
+            <div class="info-row">
+                <label for="username">Username:</label><span class="login-error error-message"><?php echo $UE; ?></span>
+                <input type="text" id="username" name="Username" placeholder="Enter your username..." value="<?php echo $Username; ?>"><br>
 
-        <!-- form used by employees to login to the portal/system -->
-        
-        <div class="info">
-            <div class="info-title"><span>Please login to access the FDM Employee Portal:</span></div>
-            <form action="login.php" method="post">
-                <div class="info-row">
-                    <label for="username">Username:</label><span class="login-error"><?php echo $UE; ?></span>
-                    <input type="text" id="username" name="Username" placeholder="Enter your username..." value="<?php echo $Username; ?>"><br>
+                <label for="password">Password:</label><span class="login-error error-message"><?php echo $PE; ?></span>
+                <input type="password" id="password" name="Password" placeholder="Enter your password..."><br>
 
-                    <label for="password">Password:</label><span class="login-error"><?php echo $PE; ?></span>
-                    <input type="password" id="password" name="Password" placeholder="Enter your password..."><br>
+                <input type="submit" id="login" name="login" value="LOGIN">
+            </div>
+        </form>
+    </div>
+</body>
 
-                    <input type="submit" id="login" name="login" value="LOGIN">
-                </div>
-            </form>
-        </div>
-      </div>
-
-        
-    </body>
 </html>
 
 

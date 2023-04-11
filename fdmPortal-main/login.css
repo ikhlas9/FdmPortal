@@ -11,7 +11,11 @@
   
  
 
-  
+  .error-message {
+    color: red;
+    font-weight: bold;
+}
+
  
   .form-group {
     margin-bottom: 30px;
